@@ -19,7 +19,7 @@ declare namespace directoryTree {
     name: string;
     size: number;
     type: "directory" | "file";
-    children?: DirectoryTree<C>[];
+    _children?: DirectoryTree<C>[];
     extension?: string;
     isSymbolicLink?: boolean;
     custom: C;

@@ -1,7 +1,7 @@
 tree = {
   "path": "./test/test_data",
   "name": "test_data",
-  "children": [
+  "_children": [
     {
       "path": "test/test_data/file_a.txt",
       "name": "file_a.txt",
@@ -19,7 +19,7 @@ tree = {
     {
       "path": "test/test_data/some_dir",
       "name": "some_dir",
-      "children": [
+      "_children": [
         {
           "path": "test/test_data/some_dir/file_a.txt",
           "name": "file_a.txt",

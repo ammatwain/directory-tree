@@ -2,7 +2,7 @@ tree = {
   "path": "./test/test_data",
   "name": "test_data",
   "type": "directory",
-  "children": [
+  "_children": [
     {
       "path": "test/test_data/file_a.txt",
       "name": "file_a.txt",
@@ -21,12 +21,12 @@ tree = {
       "path": "test/test_data/some_dir",
       "name": "some_dir",
       "type": "directory",
-      "children": [
+      "_children": [
         {
           "path": "test/test_data/some_dir/another_dir",
           "name": "another_dir",
           "type": "directory",
-          "children": [
+          "_children": [
             {
               "path": "test/test_data/some_dir/another_dir/file_a.txt",
               "name": "file_a.txt",
@@ -65,7 +65,7 @@ tree = {
       "path": "test/test_data/some_dir_2",
       "name": "some_dir_2",
       "type": "directory",
-      "children": [
+      "_children": [
         {
           "path": "test/test_data/some_dir_2/.gitkeep",
           "name": ".gitkeep",
@@ -77,7 +77,7 @@ tree = {
       "size": 0
     },
     {
-      "children": [
+      "_children": [
         {
           "extension": ".txt",
           "name": "file_a.txt",
@@ -93,9 +93,9 @@ tree = {
           "type": "file",
         },
         {
-          "children": [
+          "_children": [
             {
-              "children": [
+              "_children": [
                 {
                   "extension": ".txt",
                   "name": "file_a.txt",
@@ -137,7 +137,7 @@ tree = {
           "type": "directory"
         },
         {
-          "children": [
+          "_children": [
             {
               "extension": "",
               "name": ".gitkeep",
